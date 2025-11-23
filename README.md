@@ -74,7 +74,7 @@ synclink link "C:\Program Files\VSCode\Code.exe" --shortcut -n vscode --shortcut
 synclink link "D:\Games\game.exe" --shortcut -n game -d "我最喜欢的游戏" --shortcut-name "游戏启动器"
 
 # 仅为可执行文件创建开始菜单快捷方式，不移动或链接它
-synclink link C:\ProgramFiles\MyApp\App.exe --shortcut --unlink -n MyAppLauncher
+synclink link C:\ProgramFiles\MyApp\App.exe --shortcut -n MyAppLauncher
 ```
 
 ---

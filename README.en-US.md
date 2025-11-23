@@ -74,7 +74,7 @@ synclink link "C:\Program Files\VSCode\Code.exe" --shortcut -n vscode --shortcut
 synclink link "D:\Games\game.exe" --shortcut -n game -d "My Favorite Game" --shortcut-name "游戏启动器"
 
 # Only create a Start Menu shortcut for an executable, don't move or link it
-synclink link C:\ProgramFiles\MyApp\App.exe --shortcut --unlink -n MyAppLauncher
+synclink link C:\ProgramFiles\MyApp\App.exe --shortcut -n MyAppLauncher
 ```
 
 ---
